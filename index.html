@@ -22,6 +22,11 @@
   </head>
   <body>
     <div class="main">
+        
+<div class="hamburger" onclick="toggleSidebar()">
+  <i class="fa-solid fa-bars"></i>
+</div>
+
       <div class="sidebar">
         <div class="nav">
           <div class="nav-option" style="opacity: 1">
@@ -200,5 +205,12 @@
         </div>
       </div>
     </div>
+    <script>
+function toggleSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.classList.toggle('active');
+}
+</script>
+
   </body>
 </html>
