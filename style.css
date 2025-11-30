@@ -271,3 +271,112 @@ opacity: 0.7;
   margin-left: 15px;
   opacity: 0.8;
 }
+
+@media (max-width: 1000px) {
+  .hide {
+    display: none;
+  }
+  
+  .sidebar {
+    width: 100%;
+    margin-right: 0;
+    border-radius: 0;
+    flex-direction: row;
+    overflow-x: auto;
+  }
+  
+  .main {
+    flex-direction: column;
+    height: auto;
+    padding: 8px;
+  }
+  
+  .nav, .library {
+    flex-direction: row;
+    padding: 8px;
+  }
+  
+  .nav-option {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 6px 8px;
+  }
+
+  .cards-container {
+    justify-content: center;
+  }
+
+  .card {
+    width: 45%;
+    margin: 8px;
+    padding: 12px;
+  }
+
+  .album {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .player {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .control {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .player-control-icon {
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .progress-bar {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 90%;
+    margin: 6px auto;
+  }
+
+  .nav-option a {
+    font-size: 14px;
+    margin-left: 8px;
+  }
+
+  .budge {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+
+  .sticky-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 0;
+  }
+
+  .sticky-nav-icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+
+  .player-control-icon {
+    height: 16px;
+    margin-right: 8px;
+  }
+
+  .album i {
+    margin-left: 8px;
+  }
+
+  .progress-bar {
+    width: 70%;
+  }
+}
