@@ -24,6 +24,13 @@ body {
   position: sticky;
   top: 8px;
 }
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
 
 .nav-option {
   display: flex;
@@ -174,3 +181,4 @@ body {
     justify-content: center;
   }
 }
+
