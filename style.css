@@ -25,11 +25,11 @@ body {
   top: 8px;
 }
 .sticky-nav {
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
   z-index: 50;
 }
+
 
 
 .nav-option {
@@ -181,4 +181,5 @@ body {
     justify-content: center;
   }
 }
+
 
